@@ -128,7 +128,7 @@ public class EtudiantRestservice {
 etudiantFacade.delete(etudiantFacade.findById(pEtudiant));
 
 //2. renvoi de la réponse au client ws
- return Response.status(202).entity("tudiant supprimé avec succès").build();
+ return Response.status(202).entity("etudiant supprimé avec succès").build();
     }
 
 }//fin classe
